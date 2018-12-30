@@ -1,0 +1,12 @@
+General idea of the DAO pattern:
+
+	- For each entity, there will be an object responsible for making
+the access to data related to this entity. Example
+	
+		- Client: ClientDao
+		- Product: ProductDao
+		- Request: RequestDao
+
+	- Each DAO will be defined by the interface.
+	- The dependency injection can be made by the project Factory pattern.
+	
